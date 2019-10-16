@@ -10,7 +10,7 @@ class Show
 
   end
 
-  def characters(character)
+  def add_characters(character)
     @chars << character
   end
 
