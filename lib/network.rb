@@ -19,6 +19,8 @@ class Network
   def highest_paid_actor
     collect_characters.max_by {|character| character.salary}.actor
     # Using the collected characters from show object and iterating over those characters to locate the max salary, then returning the character that corresponds with that salary. Why am I receiving a wrong number of arguments error? Looks like it has something to do with the add_characters method I made in the show class.
+
+    #To rephrase, I understand why I am receiving a wrong number of arguments error, but I am uncertain on how else to format the method. 
   end
 
 end
